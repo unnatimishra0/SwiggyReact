@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Component from './Component';
+
 import './App.css';
+import Body from './Component/Body';
+import Header from './Component/Header';
+import ResturantCard from './Component/ResturantCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Body/>
+      <ResturantCard/>
     </div>
   );
 }
 
 export default App;
+
+// const jsxHeading=<h1 id='heading'> Namaste</h1>
+// console.log(jsxHeading);
+
+// const root=ReactDOM.createRoot(document.getElementById('root'));
+
+// root.render(jsxHeading);

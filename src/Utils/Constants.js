@@ -1,0 +1,3 @@
+export const LOGO_URL='https://th.bing.com/th/id/R.783ecca519ae0a9e6828595c7682a6bb?rik=1TysI%2flq4qz5hw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fFast-food-backgrounds-free-download.jpg&ehk=VN0hGMNRFLcAvvFfp4ePGsV38KfupnWKf0jLzqcaS90%3d&risl=&pid=ImgRaw&r=0';
+
+export const RES_LOGO="https://th.bing.com/th/id/R.913becf9f884742c3bae5764e35ae12b?rik=zxv5oidL7n59fQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f2%2f9%2f7%2f494243.jpg&ehk=jbHEDfWJ%2fvfSK7S0gPqDY4mLwcyroJZp5ma9w4jrfOw%3d&risl=&pid=ImgRaw&r=0";
